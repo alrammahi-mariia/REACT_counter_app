@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+/*main styling, overrides other css files*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
+  max-height: 6vh;
+  background-color: rgb(100, 100, 223);
+  color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.counter {
+  min-height: 72vh;
+}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(125, 125, 226);
+  border-radius: 50%;
+  margin: 5rem auto;
+}
+
+.circle-odd {
+  background-color: rgb(43, 43, 96);
+}
+
+.circle-even {
+  background-color: rgb(175, 175, 223);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+}
+
+button {
+  font-family: inherit;
+  background-color: rgb(100, 100, 223);
+  border: none;
+  padding: 1rem;
+  width: 13rem;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+footer {
+  min-height: 10vh;
+  background-color: rgb(43, 43, 96);
+  color: white;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
