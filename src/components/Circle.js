@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
 
-// const Circle = () =>{
-//     return Value is: {state.counter}
-// }
+// const Circle = (props) => {
+//     return <div> Value is: {props.counter}</div>;
+// };
 
-export default Circle;
+// export default Circle;

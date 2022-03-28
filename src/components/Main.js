@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Circle from "./Circle";
+// import Circle from "./Circle";
 
 class Main extends Component {
   state = {
@@ -7,28 +7,28 @@ class Main extends Component {
   };
 
   addOneHandler = () => {
-    this.setstate = {
+    this.setState = {
       counter: this.state.counter + 1,
     };
   };
   addFiveHandler = () => {
-    this.setstate = {
+    this.setState = {
       counter: this.state.counter + 5,
     };
   };
   resetHandler = () => {
-    this.setstate = {
+    this.setState = {
       counter: 0,
     };
   };
 
   removeOneHandler = () => {
-    this.setstate = {
+    this.setState = {
       counter: this.state.counter - 1,
     };
   };
   removeFiveHandler = () => {
-    this.setstate = {
+    this.setState = {
       counter: this.state.counter - 5,
     };
   };
@@ -39,7 +39,6 @@ class Main extends Component {
         <div className="circle">
           <h1>{this.state.counter}</h1>
         </div>
-        <Circle counter={this.state.counter} />
         <div className="buttons">
           <div id="button">
             <button onClick={this.addFiveHandler}>Add five</button>
