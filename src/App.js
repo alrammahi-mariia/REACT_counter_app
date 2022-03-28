@@ -9,9 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main
-      // {...number: "0"}
-      />
+      <Main />
       <Footer />
     </div>
   );
