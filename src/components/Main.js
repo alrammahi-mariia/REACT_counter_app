@@ -1,7 +1,11 @@
-const Counter = (props) => {
+import Reach from "react";
+
+const Main = (props) => {
   return (
-    <div className="counter">
-      <div class="circle">{props.name}</div>
+    <main>
+      <div className="circle">
+        <h1>0</h1>
+      </div>
       <div class="buttons">
         <div id="button">
           <button>Add five</button>
@@ -19,8 +23,8 @@ const Counter = (props) => {
           <button>Remove five</button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
-export default Counter;
+export default Main;

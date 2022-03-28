@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./Header";
-import Counter from "./Counter";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 const number = 0;
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Counter
+      <Main
       // {...number: "0"}
       />
       <Footer />
